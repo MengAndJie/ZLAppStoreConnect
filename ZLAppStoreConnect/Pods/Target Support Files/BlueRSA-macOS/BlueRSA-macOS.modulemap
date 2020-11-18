@@ -1,0 +1,6 @@
+framework module CryptorRSA {
+  umbrella header "BlueRSA-macOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

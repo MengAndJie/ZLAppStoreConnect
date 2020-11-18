@@ -1,0 +1,6 @@
+framework module CryptorECC {
+  umbrella header "BlueECC-macOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

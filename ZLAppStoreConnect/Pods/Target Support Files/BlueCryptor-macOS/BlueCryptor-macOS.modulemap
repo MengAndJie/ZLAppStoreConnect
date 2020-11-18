@@ -1,0 +1,6 @@
+framework module Cryptor {
+  umbrella header "BlueCryptor-macOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

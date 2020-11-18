@@ -1,0 +1,9 @@
+${PODS_ROOT}/Target Support Files/Pods-ZLAppStoreConnect (macOS)/Pods-ZLAppStoreConnect (macOS)-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Alamofire-macOS/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/BlueCryptor-macOS/Cryptor.framework
+${BUILT_PRODUCTS_DIR}/BlueECC-macOS/CryptorECC.framework
+${BUILT_PRODUCTS_DIR}/BlueRSA-macOS/CryptorRSA.framework
+${BUILT_PRODUCTS_DIR}/KituraContracts-macOS/KituraContracts.framework
+${BUILT_PRODUCTS_DIR}/LoggerAPI-macOS/LoggerAPI.framework
+${BUILT_PRODUCTS_DIR}/Logging-macOS/Logging.framework
+${BUILT_PRODUCTS_DIR}/SwiftJWT-macOS/SwiftJWT.framework

@@ -1,0 +1,26 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'ZLAppStoreConnect (iOS)' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+  
+  # HTTP
+  pod 'Alamofire', '~> 5.2'
+  
+  # JWT Sign
+  pod 'SwiftJWT'
+  # Pods for ZLAppStoreConnect (iOS)
+
+end
+
+target 'ZLAppStoreConnect (macOS)' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+  
+  # Pods for ZLAppStoreConnect (macOS)
+  pod 'Alamofire', '~> 5.2'
+  
+  pod 'SwiftJWT'
+
+end

@@ -1,0 +1,6 @@
+framework module Pods_ZLAppStoreConnect__iOS_ {
+  umbrella header "Pods-ZLAppStoreConnect (iOS)-umbrella.h"
+
+  export *
+  module * { export * }
+}

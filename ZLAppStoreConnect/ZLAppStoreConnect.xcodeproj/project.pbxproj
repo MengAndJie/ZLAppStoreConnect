@@ -1,0 +1,846 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B64DED418970DC94CFF0715 /* Pods_ZLAppStoreConnect__macOS_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9B25F7DE66E4ECF44FA6179 /* Pods_ZLAppStoreConnect__macOS_.framework */; };
+		0FAEACC67C185057C459E691 /* Pods_ZLAppStoreConnect__iOS_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADA28B6BBC9001AF59C0F6B4 /* Pods_ZLAppStoreConnect__iOS_.framework */; };
+		743252712564651000BC7771 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743252702564651000BC7771 /* Tests_iOS.swift */; };
+		7432527C2564651000BC7771 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7432527B2564651000BC7771 /* Tests_macOS.swift */; };
+		7432527E2564651000BC7771 /* ZLAppStoreConnectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743252552564650C00BC7771 /* ZLAppStoreConnectApp.swift */; };
+		7432527F2564651000BC7771 /* ZLAppStoreConnectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743252552564650C00BC7771 /* ZLAppStoreConnectApp.swift */; };
+		743252802564651000BC7771 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743252562564650C00BC7771 /* ContentView.swift */; };
+		743252812564651000BC7771 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743252562564650C00BC7771 /* ContentView.swift */; };
+		743252822564651000BC7771 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 743252572564651000BC7771 /* Assets.xcassets */; };
+		743252832564651000BC7771 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 743252572564651000BC7771 /* Assets.xcassets */; };
+		74B037E3256496EC00163123 /* AppStoreConnectAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B037E2256496EC00163123 /* AppStoreConnectAPI.swift */; };
+		74B037E4256496EC00163123 /* AppStoreConnectAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B037E2256496EC00163123 /* AppStoreConnectAPI.swift */; };
+		74B038002564B28B00163123 /* AuthKey_Z3Z93W5693.p8 in Resources */ = {isa = PBXBuildFile; fileRef = 74B037FF2564B28B00163123 /* AuthKey_Z3Z93W5693.p8 */; };
+		74B038012564B28B00163123 /* AuthKey_Z3Z93W5693.p8 in Resources */ = {isa = PBXBuildFile; fileRef = 74B037FF2564B28B00163123 /* AuthKey_Z3Z93W5693.p8 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7432526D2564651000BC7771 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 743252502564650C00BC7771 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7432525B2564651000BC7771;
+			remoteInfo = "ZLAppStoreConnect (iOS)";
+		};
+		743252782564651000BC7771 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 743252502564650C00BC7771 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 743252632564651000BC7771;
+			remoteInfo = "ZLAppStoreConnect (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1C02C785152AC340FE7A78A2 /* Pods-ZLAppStoreConnect (iOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZLAppStoreConnect (iOS).debug.xcconfig"; path = "Target Support Files/Pods-ZLAppStoreConnect (iOS)/Pods-ZLAppStoreConnect (iOS).debug.xcconfig"; sourceTree = "<group>"; };
+		668CCA918A1620452F1A6FCE /* Pods-ZLAppStoreConnect (macOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZLAppStoreConnect (macOS).debug.xcconfig"; path = "Target Support Files/Pods-ZLAppStoreConnect (macOS)/Pods-ZLAppStoreConnect (macOS).debug.xcconfig"; sourceTree = "<group>"; };
+		743252552564650C00BC7771 /* ZLAppStoreConnectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZLAppStoreConnectApp.swift; sourceTree = "<group>"; };
+		743252562564650C00BC7771 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		743252572564651000BC7771 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7432525C2564651000BC7771 /* ZLAppStoreConnect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZLAppStoreConnect.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7432525F2564651000BC7771 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		743252642564651000BC7771 /* ZLAppStoreConnect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZLAppStoreConnect.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		743252662564651000BC7771 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		743252672564651000BC7771 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		7432526C2564651000BC7771 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		743252702564651000BC7771 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		743252722564651000BC7771 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		743252772564651000BC7771 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7432527B2564651000BC7771 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		7432527D2564651000BC7771 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74B037E2256496EC00163123 /* AppStoreConnectAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStoreConnectAPI.swift; sourceTree = "<group>"; };
+		74B037FF2564B28B00163123 /* AuthKey_Z3Z93W5693.p8 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AuthKey_Z3Z93W5693.p8; sourceTree = "<group>"; };
+		A3C4BDDED3ADB83A05DF2621 /* Pods-ZLAppStoreConnect (iOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZLAppStoreConnect (iOS).release.xcconfig"; path = "Target Support Files/Pods-ZLAppStoreConnect (iOS)/Pods-ZLAppStoreConnect (iOS).release.xcconfig"; sourceTree = "<group>"; };
+		AC51513A51D9FA838B7FEF1E /* Pods-ZLAppStoreConnect (macOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZLAppStoreConnect (macOS).release.xcconfig"; path = "Target Support Files/Pods-ZLAppStoreConnect (macOS)/Pods-ZLAppStoreConnect (macOS).release.xcconfig"; sourceTree = "<group>"; };
+		ADA28B6BBC9001AF59C0F6B4 /* Pods_ZLAppStoreConnect__iOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZLAppStoreConnect__iOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9B25F7DE66E4ECF44FA6179 /* Pods_ZLAppStoreConnect__macOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZLAppStoreConnect__macOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		743252592564651000BC7771 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FAEACC67C185057C459E691 /* Pods_ZLAppStoreConnect__iOS_.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		743252612564651000BC7771 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B64DED418970DC94CFF0715 /* Pods_ZLAppStoreConnect__macOS_.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		743252692564651000BC7771 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		743252742564651000BC7771 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		37AE1D3EE820C877CC3DA0CF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1C02C785152AC340FE7A78A2 /* Pods-ZLAppStoreConnect (iOS).debug.xcconfig */,
+				A3C4BDDED3ADB83A05DF2621 /* Pods-ZLAppStoreConnect (iOS).release.xcconfig */,
+				668CCA918A1620452F1A6FCE /* Pods-ZLAppStoreConnect (macOS).debug.xcconfig */,
+				AC51513A51D9FA838B7FEF1E /* Pods-ZLAppStoreConnect (macOS).release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7432524F2564650C00BC7771 = {
+			isa = PBXGroup;
+			children = (
+				743252542564650C00BC7771 /* Shared */,
+				7432525E2564651000BC7771 /* iOS */,
+				743252652564651000BC7771 /* macOS */,
+				7432526F2564651000BC7771 /* Tests iOS */,
+				7432527A2564651000BC7771 /* Tests macOS */,
+				7432525D2564651000BC7771 /* Products */,
+				37AE1D3EE820C877CC3DA0CF /* Pods */,
+				9E9507AA73614A201C2E8059 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		743252542564650C00BC7771 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				74B037DD256496C200163123 /* AppStoreConnectAPI */,
+				743252552564650C00BC7771 /* ZLAppStoreConnectApp.swift */,
+				743252562564650C00BC7771 /* ContentView.swift */,
+				74B037FF2564B28B00163123 /* AuthKey_Z3Z93W5693.p8 */,
+				743252572564651000BC7771 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		7432525D2564651000BC7771 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7432525C2564651000BC7771 /* ZLAppStoreConnect.app */,
+				743252642564651000BC7771 /* ZLAppStoreConnect.app */,
+				7432526C2564651000BC7771 /* Tests iOS.xctest */,
+				743252772564651000BC7771 /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7432525E2564651000BC7771 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				7432525F2564651000BC7771 /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		743252652564651000BC7771 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				743252662564651000BC7771 /* Info.plist */,
+				743252672564651000BC7771 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		7432526F2564651000BC7771 /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				743252702564651000BC7771 /* Tests_iOS.swift */,
+				743252722564651000BC7771 /* Info.plist */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		7432527A2564651000BC7771 /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				7432527B2564651000BC7771 /* Tests_macOS.swift */,
+				7432527D2564651000BC7771 /* Info.plist */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+		74B037DD256496C200163123 /* AppStoreConnectAPI */ = {
+			isa = PBXGroup;
+			children = (
+				74B037E2256496EC00163123 /* AppStoreConnectAPI.swift */,
+			);
+			path = AppStoreConnectAPI;
+			sourceTree = "<group>";
+		};
+		9E9507AA73614A201C2E8059 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ADA28B6BBC9001AF59C0F6B4 /* Pods_ZLAppStoreConnect__iOS_.framework */,
+				F9B25F7DE66E4ECF44FA6179 /* Pods_ZLAppStoreConnect__macOS_.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7432525B2564651000BC7771 /* ZLAppStoreConnect (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 743252862564651000BC7771 /* Build configuration list for PBXNativeTarget "ZLAppStoreConnect (iOS)" */;
+			buildPhases = (
+				AD9098C67818ADA883046DED /* [CP] Check Pods Manifest.lock */,
+				743252582564651000BC7771 /* Sources */,
+				743252592564651000BC7771 /* Frameworks */,
+				7432525A2564651000BC7771 /* Resources */,
+				941D681AF9D9D2BEC507088C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ZLAppStoreConnect (iOS)";
+			productName = "ZLAppStoreConnect (iOS)";
+			productReference = 7432525C2564651000BC7771 /* ZLAppStoreConnect.app */;
+			productType = "com.apple.product-type.application";
+		};
+		743252632564651000BC7771 /* ZLAppStoreConnect (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 743252892564651000BC7771 /* Build configuration list for PBXNativeTarget "ZLAppStoreConnect (macOS)" */;
+			buildPhases = (
+				F1D25DB7BB610D935DF46F07 /* [CP] Check Pods Manifest.lock */,
+				743252602564651000BC7771 /* Sources */,
+				743252612564651000BC7771 /* Frameworks */,
+				743252622564651000BC7771 /* Resources */,
+				B7785E107EF97039462912EF /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ZLAppStoreConnect (macOS)";
+			productName = "ZLAppStoreConnect (macOS)";
+			productReference = 743252642564651000BC7771 /* ZLAppStoreConnect.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7432526B2564651000BC7771 /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7432528C2564651000BC7771 /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				743252682564651000BC7771 /* Sources */,
+				743252692564651000BC7771 /* Frameworks */,
+				7432526A2564651000BC7771 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7432526E2564651000BC7771 /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = 7432526C2564651000BC7771 /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		743252762564651000BC7771 /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7432528F2564651000BC7771 /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				743252732564651000BC7771 /* Sources */,
+				743252742564651000BC7771 /* Frameworks */,
+				743252752564651000BC7771 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				743252792564651000BC7771 /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = 743252772564651000BC7771 /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		743252502564650C00BC7771 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					7432525B2564651000BC7771 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					743252632564651000BC7771 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					7432526B2564651000BC7771 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 7432525B2564651000BC7771;
+					};
+					743252762564651000BC7771 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 743252632564651000BC7771;
+					};
+				};
+			};
+			buildConfigurationList = 743252532564650C00BC7771 /* Build configuration list for PBXProject "ZLAppStoreConnect" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7432524F2564650C00BC7771;
+			productRefGroup = 7432525D2564651000BC7771 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7432525B2564651000BC7771 /* ZLAppStoreConnect (iOS) */,
+				743252632564651000BC7771 /* ZLAppStoreConnect (macOS) */,
+				7432526B2564651000BC7771 /* Tests iOS */,
+				743252762564651000BC7771 /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7432525A2564651000BC7771 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74B038002564B28B00163123 /* AuthKey_Z3Z93W5693.p8 in Resources */,
+				743252822564651000BC7771 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		743252622564651000BC7771 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74B038012564B28B00163123 /* AuthKey_Z3Z93W5693.p8 in Resources */,
+				743252832564651000BC7771 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7432526A2564651000BC7771 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		743252752564651000BC7771 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		941D681AF9D9D2BEC507088C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZLAppStoreConnect (iOS)/Pods-ZLAppStoreConnect (iOS)-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZLAppStoreConnect (iOS)/Pods-ZLAppStoreConnect (iOS)-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZLAppStoreConnect (iOS)/Pods-ZLAppStoreConnect (iOS)-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD9098C67818ADA883046DED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZLAppStoreConnect (iOS)-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B7785E107EF97039462912EF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZLAppStoreConnect (macOS)/Pods-ZLAppStoreConnect (macOS)-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZLAppStoreConnect (macOS)/Pods-ZLAppStoreConnect (macOS)-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZLAppStoreConnect (macOS)/Pods-ZLAppStoreConnect (macOS)-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1D25DB7BB610D935DF46F07 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZLAppStoreConnect (macOS)-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		743252582564651000BC7771 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74B037E3256496EC00163123 /* AppStoreConnectAPI.swift in Sources */,
+				743252802564651000BC7771 /* ContentView.swift in Sources */,
+				7432527E2564651000BC7771 /* ZLAppStoreConnectApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		743252602564651000BC7771 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74B037E4256496EC00163123 /* AppStoreConnectAPI.swift in Sources */,
+				743252812564651000BC7771 /* ContentView.swift in Sources */,
+				7432527F2564651000BC7771 /* ZLAppStoreConnectApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		743252682564651000BC7771 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				743252712564651000BC7771 /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		743252732564651000BC7771 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7432527C2564651000BC7771 /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7432526E2564651000BC7771 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7432525B2564651000BC7771 /* ZLAppStoreConnect (iOS) */;
+			targetProxy = 7432526D2564651000BC7771 /* PBXContainerItemProxy */;
+		};
+		743252792564651000BC7771 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 743252632564651000BC7771 /* ZLAppStoreConnect (macOS) */;
+			targetProxy = 743252782564651000BC7771 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		743252842564651000BC7771 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		743252852564651000BC7771 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		743252872564651000BC7771 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C02C785152AC340FE7A78A2 /* Pods-ZLAppStoreConnect (iOS).debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 24LG5QVBPR;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zm.ZLAppStoreConnect;
+				PRODUCT_NAME = ZLAppStoreConnect;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		743252882564651000BC7771 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3C4BDDED3ADB83A05DF2621 /* Pods-ZLAppStoreConnect (iOS).release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 24LG5QVBPR;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zm.ZLAppStoreConnect;
+				PRODUCT_NAME = ZLAppStoreConnect;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7432528A2564651000BC7771 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 668CCA918A1620452F1A6FCE /* Pods-ZLAppStoreConnect (macOS).debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 24LG5QVBPR;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zm.ZLAppStoreConnect;
+				PRODUCT_NAME = ZLAppStoreConnect;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		7432528B2564651000BC7771 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC51513A51D9FA838B7FEF1E /* Pods-ZLAppStoreConnect (macOS).release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 24LG5QVBPR;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zm.ZLAppStoreConnect;
+				PRODUCT_NAME = ZLAppStoreConnect;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		7432528D2564651000BC7771 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 24LG5QVBPR;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zm.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ZLAppStoreConnect (iOS)";
+			};
+			name = Debug;
+		};
+		7432528E2564651000BC7771 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 24LG5QVBPR;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zm.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ZLAppStoreConnect (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		743252902564651000BC7771 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 24LG5QVBPR;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zm.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "ZLAppStoreConnect (macOS)";
+			};
+			name = Debug;
+		};
+		743252912564651000BC7771 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 24LG5QVBPR;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zm.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "ZLAppStoreConnect (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		743252532564650C00BC7771 /* Build configuration list for PBXProject "ZLAppStoreConnect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				743252842564651000BC7771 /* Debug */,
+				743252852564651000BC7771 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		743252862564651000BC7771 /* Build configuration list for PBXNativeTarget "ZLAppStoreConnect (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				743252872564651000BC7771 /* Debug */,
+				743252882564651000BC7771 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		743252892564651000BC7771 /* Build configuration list for PBXNativeTarget "ZLAppStoreConnect (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7432528A2564651000BC7771 /* Debug */,
+				7432528B2564651000BC7771 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7432528C2564651000BC7771 /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7432528D2564651000BC7771 /* Debug */,
+				7432528E2564651000BC7771 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7432528F2564651000BC7771 /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				743252902564651000BC7771 /* Debug */,
+				743252912564651000BC7771 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 743252502564650C00BC7771 /* Project object */;
+}

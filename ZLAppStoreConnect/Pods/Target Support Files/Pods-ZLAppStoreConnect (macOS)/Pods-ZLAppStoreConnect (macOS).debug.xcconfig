@@ -1,0 +1,12 @@
+ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/Alamofire-macOS" "${PODS_CONFIGURATION_BUILD_DIR}/BlueCryptor-macOS" "${PODS_CONFIGURATION_BUILD_DIR}/BlueECC-macOS" "${PODS_CONFIGURATION_BUILD_DIR}/BlueRSA-macOS" "${PODS_CONFIGURATION_BUILD_DIR}/KituraContracts-macOS" "${PODS_CONFIGURATION_BUILD_DIR}/LoggerAPI-macOS" "${PODS_CONFIGURATION_BUILD_DIR}/Logging-macOS" "${PODS_CONFIGURATION_BUILD_DIR}/SwiftJWT-macOS"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/Alamofire-macOS/Alamofire.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/BlueCryptor-macOS/Cryptor.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/BlueECC-macOS/CryptorECC.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/BlueRSA-macOS/CryptorRSA.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/KituraContracts-macOS/KituraContracts.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/LoggerAPI-macOS/LoggerAPI.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/Logging-macOS/Logging.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/SwiftJWT-macOS/SwiftJWT.framework/Headers"
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/../Frameworks' '@loader_path/Frameworks'
+OTHER_LDFLAGS = $(inherited) -framework "Alamofire" -framework "CFNetwork" -framework "Cryptor" -framework "CryptorECC" -framework "CryptorRSA" -framework "KituraContracts" -framework "LoggerAPI" -framework "Logging" -framework "SwiftJWT"
+OTHER_SWIFT_FLAGS = $(inherited) -D COCOAPODS
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods
+USE_RECURSIVE_SCRIPT_INPUTS_IN_SCRIPT_PHASES = YES

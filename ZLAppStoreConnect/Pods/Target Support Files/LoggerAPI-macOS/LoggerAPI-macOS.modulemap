@@ -1,0 +1,6 @@
+framework module LoggerAPI {
+  umbrella header "LoggerAPI-macOS-umbrella.h"
+
+  export *
+  module * { export * }
+}
